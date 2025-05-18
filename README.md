@@ -59,11 +59,10 @@ Coverage is reported in the `final_phase()` of the subscriber.
 ├── generator.sv
 ├── driver.sv
 ├── monitor.sv
+├── agent.sv
 ├── scoreboard.sv
 ├── subscriber.sv
-├── agent.sv
 ├── env.sv
-├── sequence.sv
 ├── test.sv
 ├── TB.sv
 └── README.md
