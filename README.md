@@ -24,7 +24,7 @@ The testbench follows UVM methodology and includes the following components:
 - monitor.sv: Monitors DUT I/O and sends transactions to scoreboard and coverage.
 - scoreboard.sv: Compares actual DUT output with expected output (`a * b`).
 - subscriber.sv: Implements a coverage class using a covergroup with bins for input combinations.
-- agent.sv: Encapsulates driver and monitor.
+- agent.sv: Encapsulates driver,sequencer and monitor.
 - env.sv: Instantiates the agent, scoreboard, subscriber, and connects the sequencer to the test.
 - sequence.sv: Generates random stimuli using UVM sequences.
 - test.sv: Top-level UVM test that starts sequences and reports results.
